@@ -4,3 +4,4 @@ crewai
 streamlit
 unstructured
 langchain_core
+litellm

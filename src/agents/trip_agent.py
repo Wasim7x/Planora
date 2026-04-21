@@ -4,9 +4,9 @@ import re
 import streamlit as st
 from langchain_core.language_models.chat_models import BaseChatModel
 from crewai import LLM
-from tools.browser_tools import BrowserTools
+from src.tools.browser_tools import BrowserTools
 from src.tools.calcultor_tools import CalculatorTools
-from tools.search_tools import SearchTools
+from src.tools.search_tools import SearchTools
 
 class TripAgents():
     def __init__(self, llm: BaseChatModel = None):
