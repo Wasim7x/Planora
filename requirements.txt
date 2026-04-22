@@ -5,3 +5,4 @@ streamlit
 unstructured
 langchain_core
 litellm
+fastapi
